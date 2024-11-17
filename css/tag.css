@@ -1,0 +1,45 @@
+.tags-section .title {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.tags-section .tags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tags-section .tags a {
+    text-transform: uppercase;
+    color: #000;
+    padding: 7px 15px;
+    background-color: #eee;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+}
+
+.tags-section .tags a:hover {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.single-post .tags-section {
+    /* display: flex; */
+    justify-content: flex-start;
+}
+
+.single-post .tags-section .tags {
+    max-width: fit-content;
+    margin: 0;
+}

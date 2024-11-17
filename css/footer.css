@@ -1,0 +1,87 @@
+
+footer {
+    background-color: darkblue;
+    color: #fff;
+    padding: 50px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+footer .links {
+    flex: 1;
+}
+
+footer .newsletter {
+    flex: 2;
+}
+
+footer .links h4,
+footer .newsletter h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    padding-bottom: 30px;
+    /* border-bottom: 1px solid #eee; */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 30px;
+}
+
+footer .links a {
+    display: table;
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+    color: #eee;
+}
+
+footer .newsletter p {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+}
+
+footer .newsletter form {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    width: fit-content;
+    display: flex;
+}
+
+footer .newsletter form input {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-style: italic;
+    width: 200px;
+}
+
+footer .newsletter form button {
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 10px 25px;
+    background: orange;
+    margin: 0;
+    border-radius: 0 4px 4px 0;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    cursor: pointer;
+}
+
+footer .copyright {
+    flex-basis: 100%;
+    text-align: center; 
+    padding-top: 30px;
+}
+
+footer .material-symbols-outlined {
+    font-variation-settings: 'FILL' 1, 'wght' 500, 'GRAD' 0, 'opsz' 48;
+    position: relative;
+    top: 5px;
+}

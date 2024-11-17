@@ -1,0 +1,117 @@
+.single-post {
+    padding: 50px 0;
+}
+
+.single-post h2,
+.single-post h3,
+.single-post h4,
+.single-post h5,
+.single-post h6 {
+    margin: 10px 0;
+}
+
+.single-post h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.single-post .post-date-category {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.single-post .post-date-category .post-category {
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.single-post .post-featured-image {
+    max-height: 500px;
+    overflow: hidden;
+    margin: 15px 0;
+}
+
+.single-post .singlepost-content {
+    padding: 0 50px 50px;
+    color: #333;
+    font-size: 0.8rem;
+}
+
+.single-post .singlepost-content p {
+    margin-bottom: 15px;
+    font-size: 0.8rem;
+}
+
+.single-post .singlepost-content img {
+    transform: scaleX(1.1);
+    margin: 25px 0;
+    max-height: 350px;
+    object-fit: cover;
+}
+
+.single-post blockquote {
+    margin: 3.9rem 0;
+    padding-left: 4.5rem;
+    position: relative;
+}
+
+.single-post blockquote:before {
+    content: "\201C";
+    font-size: 10rem;
+    line-height: 0px;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.25);
+    font-family: arial, sans-serif;
+    position: absolute;
+    top: 3.6rem;
+    left: 0;
+}
+
+.single-post .singlepost-content blockquote p {
+    padding: 0;
+    font-size: 1.6rem;
+    line-height: 1.557;
+    color: #000000;
+}
+
+.single-post .singlepost-content > ul {
+    list-style-type: circle;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.single-post .singlepost-content ul ul {
+    list-style-type: square;
+    margin-left: 30px;
+}
+
+.category-section {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.category-section .post {
+    display: flex;
+    gap: 20px;
+}
+
+.category-section .post img.post-image {
+    margin-bottom: 0;
+    flex: 1;
+}
+
+.category-section .post-container {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.category-section .each-category {
+    flex: 1;
+}
